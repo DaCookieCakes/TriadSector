@@ -112,13 +112,15 @@ namespace Content.Shared.Chemistry
     [Serializable, NetSerializable]
     public sealed class ChemMasterSortingTypeCycleMessage : BoundUserInterfaceMessage;
 
-
+    // Triad - Added 15 and 30 for the Chem Master
     public enum ChemMasterReagentAmount
     {
         U1 = 1,
         U5 = 5,
         U10 = 10,
+        U15 = 15,
         U25 = 25,
+        U30 = 30,
         U50 = 50,
         U100 = 100,
         All,
